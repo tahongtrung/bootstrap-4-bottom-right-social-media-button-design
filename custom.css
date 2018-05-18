@@ -1,0 +1,59 @@
+.main-button button{
+    position:fixed;
+    height:80px;
+    width:80px;
+    bottom:80px;
+    right:100px;
+    font-size:30px;
+}   
+.main-button:hover .fa-plus{
+    transform: rotate(45deg);
+    transition:0.5s;
+}
+.social-btn{
+    opacity: 0;
+    display: none;
+    position:fixed;
+    bottom:150px;
+    right:100px;
+    transition: opacity 0.7s;
+} 
+.main-button:hover > .social-btn{
+    opacity: 1;
+    display: block;
+}  
+.social-btn li i{
+    float:right;
+    font-size:17px;
+    margin-top:10px;
+}   
+.main-button ul li{
+    width:250px;
+    text-align:left;
+    margin-bottom:10px;
+    font-weight: bold;
+    height: 50px;
+}   
+.main-button ul li:hover i{
+    font-size:25px;
+}
+.social-btn .Facebook,.social-btn .Twitter,.social-btn .Whatsapp,.social-btn .Google-plus,.social-btn .YouTube{
+    background-color: #4267B2;
+    color:#fff;
+}   
+.social-btn .Twitter{
+    background-color: #1DA1F2;
+}   
+.social-btn .Whatsapp{
+    background-color: #009688;
+}   
+.social-btn .Google-plus{
+    background-color: #D0463B;
+}   
+.social-btn .YouTube{
+    background-color: #ED2423;
+}
+.main-button ul li i{
+    position: absolute;
+    right:20px;
+}
